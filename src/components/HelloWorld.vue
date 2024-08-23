@@ -31,10 +31,17 @@
 </template>
 
 <script>
+import { onMounted } from 'vue'
+import numAdd from './haha';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  setup() {
+    onMounted(() => {
+      console.log(numAdd(7, 8));
+    })
   }
 }
 </script>
