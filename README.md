@@ -3,11 +3,9 @@
 <strong>使用版本：vue3</strong>
 
 1. 下载插件 
-
-    <code>
+    ```javascript
     npm i galaxyzz-tools
-    </code>
-
+    ```
 2. 全局引用
 
     <strong>main.js</strong>
